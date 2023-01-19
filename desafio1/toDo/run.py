@@ -1,3 +1,4 @@
-while (True):
-    andar = int(input('Defina um andar: '))
-    print()
+from components.elevador import Elevador
+
+elevador = Elevador()
+elevador.ligar()
